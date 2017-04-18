@@ -1,7 +1,10 @@
-# test coverage for  [cookies (v0.7.0)](https://github.com/pillarjs/cookies#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cookies.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookies) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookies.svg)](https://travis-ci.org/npmtest/node-npmtest-cookies)
+# npmtest-cookies
+
+#### test coverage for  [cookies (v0.7.0)](https://github.com/pillarjs/cookies#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cookies.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookies) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookies.svg)](https://travis-ci.org/npmtest/node-npmtest-cookies)
+
 #### Cookies, optionally signed using Keygrip.
 
-[![NPM](https://nodei.co/npm/cookies.png?downloads=true)](https://www.npmjs.com/package/cookies)
+[![NPM](https://nodei.co/npm/cookies.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/cookies)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-cookies/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cookies/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cookies/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cookies/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cookies/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cookies/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-cookies/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-cookies%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cookies/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-cookies/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-cookies/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-cookies%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cookies/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-cookies/build/test-report.html](https://npmtest.github.io/node-npmtest-cookies/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-cookies/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-cookies/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-cookies/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-cookies/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-cookies/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-cookies/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-cookies/build/screenCapture.npmPackageListing.svg)
 
@@ -28,7 +37,6 @@
 {
     "author": {
         "name": "Jed Schmidt",
-        "email": "tr@nslator.jp",
         "url": "http://jed.is"
     },
     "bugs": {
@@ -36,8 +44,7 @@
     },
     "contributors": [
         {
-            "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com"
+            "name": "Douglas Christopher Wilson"
         }
     ],
     "dependencies": {
@@ -71,25 +78,20 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "dougwilson",
-            "email": "doug@somethingdoug.com"
+            "name": "dougwilson"
         },
         {
-            "name": "fishrock123",
-            "email": "fishrock123@rocketmail.com"
+            "name": "fishrock123"
         },
         {
-            "name": "jed",
-            "email": "where@jed.is"
+            "name": "jed"
         },
         {
-            "name": "jongleberry",
-            "email": "jonathanrichardong@gmail.com"
+            "name": "jongleberry"
         }
     ],
     "name": "cookies",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/pillarjs/cookies.git"
