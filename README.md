@@ -1,6 +1,6 @@
 # npmtest-cookies
 
-#### test coverage for  [cookies (v0.7.0)](https://github.com/pillarjs/cookies#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cookies.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookies) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookies.svg)](https://travis-ci.org/npmtest/node-npmtest-cookies)
+#### basic test coverage for  [cookies (v0.7.0)](https://github.com/pillarjs/cookies#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cookies.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cookies) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cookies.svg)](https://travis-ci.org/npmtest/node-npmtest-cookies)
 
 #### Cookies, optionally signed using Keygrip.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cookies/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cookies/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cookies/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cookies/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cookies/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cookies/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cookies/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cookies/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cookies/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cookies/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "test-ci": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/",
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/"
     },
-    "version": "0.7.0"
+    "version": "0.7.0",
+    "bin": {}
 }
 ```
 
